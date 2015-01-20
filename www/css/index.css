@@ -20,9 +20,21 @@ body {
 
 /* Portrait layout (default) */
 
-
 /* Landscape layout (with min-width) */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+}
+
+p {
+    font-family: 'Droid Sans';
+    font-weight: bolder;
+    font-size: 16px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#location {
+    font-size: 18px;
+    border-radius: 5px;
 }
 
 button.btn {
@@ -40,7 +52,7 @@ button.btn {
     text-align: center;
     text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
     padding: 4px 20px 0;
-    margin: 5px auto;
+    margin: 15px auto;
     left: 20px;
     position: relative;
     cursor: pointer;
@@ -76,7 +88,6 @@ button.btn:active:before {
 button.halt {
     border-left: solid 1px #C02B21;
     background: #DE463B;
-
     -webkit-box-shadow: 0px 5px 0px 0px #C02B21;
     box-shadow: 0px 5px 0px 0px #C02B21;
 }
@@ -89,7 +100,6 @@ button.halt:active {
 button.halt:before {
     border-right: solid 1px #C02B21;
     background: #DE463B;
-
     -webkit-box-shadow: 0px 5px 0px 0px #C02B21;
     box-shadow: 0px 5px 0px 0px #C02B21;
 }
