@@ -47,6 +47,18 @@ p {
     margin-left: 55px;
 }
 
+button.flat {
+    text-align: left;
+    width: 200px;
+    font-size: 18px;
+    border-radius: 6px;
+    line-height: 1.471;
+    padding: 10px 10px;
+    background-color: #34495e;
+    color: #fff;
+    border: medium none;
+}
+
 button.btn {
     -webkit-transition: all 0s ease-out;
     -moz-transition: all 0s ease-out;
