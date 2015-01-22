@@ -1,5 +1,7 @@
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -20,12 +22,6 @@ body {
     width: 100%;
 }
 
-/* Portrait layout (default) */
-
-/* Landscape layout (with min-width) */
-@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
-}
-
 p {
     font-family: 'Droid Sans';
     font-weight: bolder;
@@ -34,9 +30,21 @@ p {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+#index {
+    margin-top: 50px;
+}
+
+#index * {
+    margin-top: 20px;
+}
+
 #location {
     font-size: 18px;
     border-radius: 5px;
+}
+
+#btnloc {
+    margin-left: 55px;
 }
 
 button.btn {
@@ -46,7 +54,6 @@ button.btn {
     -ms-transition: all 0s ease-out;
     transition: all 0s ease-out;
     height: 40px;
-    display: block;
     font-family: Arial, "Helvetica", sans-serif;
     font-size: 16px;
     color: #fff;
@@ -54,8 +61,9 @@ button.btn {
     text-align: center;
     text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
     padding: 4px 20px 0;
-    margin: 15px auto;
-    left: 20px;
+    margin: 5px auto;
+    margin-left: 20px;
+    margin-right: 20px;
     position: relative;
     cursor: pointer;
     border: none;
@@ -133,4 +141,95 @@ button.photo:before {
 button.photo:active:before {
     -webkit-box-shadow: 0px 5px 0px 0px #446CB3, 6px 4px 2px rgba(0,0,0,0.3);
     box-shadow: 0px 5px 0px 0px #446CB3, 6px 4px 2px rgba(0,0,0,0.3);
+}
+
+button.generic:before {
+    content: "✱";
+}
+
+button.generic {
+    border-left: solid 1px #1E824C;
+    background: #26A65B;
+    -webkit-box-shadow: 0px 5px 0px 0px #1E824C;
+    box-shadow: 0px 5px 0px 0px #1E824C;
+}
+
+button.generic:active {
+    -webkit-box-shadow: 0px 2px 0px 0px #1E824C;
+    box-shadow: 0px 2px 0px 0px #1E824C;
+}
+
+button.generic:before {
+    border-right: solid 1px #1E824C;
+    background: #26A65B;
+    -webkit-box-shadow: 0px 5px 0px 0px #1E824C;
+    box-shadow: 0px 5px 0px 0px #1E824C;
+}
+
+button.generic:active:before {
+    -webkit-box-shadow: 0px 5px 0px 0px #1E824C, 6px 4px 2px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 0px 0px #1E824C, 6px 4px 2px rgba(0,0,0,0.3);
+}
+
+button.up:before {
+    content: "↑";
+    line-height: 20px;
+}
+
+button.down:before {
+    content: "↓";
+    line-height: 20px;
+}
+
+button.left:before {
+    content: "←";
+    line-height: 20px;
+}
+
+button.right:before {
+    content: "→";
+    line-height: 20px;
+}
+
+button.stop:before {
+    content: "";
+}
+
+#header {
+    margin-bottom: 25px;
+}
+
+#footer {
+    margin-top: 25px;
+    /*General*/
+    transform: scale(0.9, 0.9);
+    /*Firefox*/
+    -moz-transform: scale(0.9, 0.9);
+    /*Microsoft Internet Explorer*/
+    -ms-transform: scale(0.9, 0.9);
+    /*Chrome, Safari*/
+    -webkit-transform: scale(0.9, 0.9);
+    /*Opera*/
+    -o-transform: scale(0.9, 0.9);
+}
+
+#main {
+    margin-left: 5%;
+}
+
+#speed {
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    font-weight: bolder;
+    height: 20px;
+    background: transparent;
+    border: none;
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (max-width: 500px) {
+    #footer, #header {
+        margin: 0;
+    }
 }

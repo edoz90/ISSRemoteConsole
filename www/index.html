@@ -10,16 +10,13 @@
         <title>RemoteConsole</title>
     </head>
     <body>
-        <div align="center">
-            <p>Location:</p>
-            <input id="location" type="text" placeholder="192.168.43.54:8080">
-        </div>
-        <div>
-            <button class="btn halt" onmousedown="sendWs('halt');">HALT</button>
-            <button class="btn photo" onmousedown="sendWs('photo')">Photo</button>
-        </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="js/robotWebUI.js"></script>
+        <div align="center" id="index">
+            <p>Location:</p>
+            <input id="location" type="text" placeholder="192.168.43.54:8080">
+            <button id="btnloc" class="btn generic" onclick="setWs();">Connect</button>
+        </div>
     </body>
 </html>
