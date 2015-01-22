@@ -2,6 +2,10 @@ var speed = 0;
 var speedRobot = "Low";
 var sock;
 
+function setLocation(el) {
+	document.getElementById("location").value = el.value;
+}
+
 function setSpeed(sp) {
 	switch(sp){
 		case 20:
