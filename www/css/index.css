@@ -214,6 +214,7 @@ button.stop:before {
 }
 
 #main {
+    display: none;
     margin-left: 5%;
 }
 

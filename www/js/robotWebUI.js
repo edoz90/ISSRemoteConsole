@@ -1,6 +1,6 @@
 var speed = 0;
 var speedRobot = "Low";
-var loc = document.getElementById("location").value;
+var sock;
 
 function setSpeed(sp) {
 	switch(sp){
@@ -26,19 +26,18 @@ function setSpeed(sp) {
 
 function setWs() {
   	if ("WebSocket" in window) {
+  		var loc = document.getElementById("location").value;
 		if (loc === "") {
-			loc = "192.168.43.54:8080";
+			loc = "localhost:8080";
 		}
-		var sock = new WebSocket("ws://"+loc);
+		sock = new WebSocket("ws://"+loc, "protocolOne");
      	sock.onopen = function() {
         	// Web Socket is connected, send data using send()
-        	javascript:window.open('control.html','_self');
+        	document.getElementById("main").style.display = "block";
+        	document.getElementById("index").style.display = "none";
      	};
      	sock.onmessage = function (evt)	{
         	var received_msg = evt.data;
-     	};
-     	sock.onclose = function() {
-        	alert("Connection Closed");
      	};
      	sock.onerror = function(error) {
      		alert("Connection Error");
