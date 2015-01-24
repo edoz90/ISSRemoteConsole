@@ -10,11 +10,4 @@
     <content src="index.html" />
     <access origin="*" />
     <preference name="Fullscreen" value="true" />
-
-    <feature name="File">
-        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
-    </feature>
-    <feature name="Capture">
-        <param name="android-package" value="org.apache.cordova.mediacapture.Capture" />
-    </feature>
 </widget>
