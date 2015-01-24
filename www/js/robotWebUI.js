@@ -30,13 +30,14 @@ function setSpeed(sp) {
 
 function setWs() {
     if ("WebSocket" in window) {
+    	            document.getElementById("main").style.display = "block";
+            document.getElementById("index").style.display = "none";
         var loc = document.getElementById("location").value;
         if (loc === "") {
             loc = "localhost:8080";
         }
         sock = new WebSocket("ws://" + loc, "protocolOne");
         sock.onopen = function() {
-            // Web Socket is connected, send data using send()
             document.getElementById("main").style.display = "block";
             document.getElementById("index").style.display = "none";
         };
@@ -57,4 +58,12 @@ function sendWs(what) {
         what += speedRobot;
     }
     sock.send(what);
+}
+
+function show(who) {
+	document.getElementById(who).style.display = "block";
+}
+
+function hide(who) {
+	document.getElementById(who).style.display = "none";
 }
