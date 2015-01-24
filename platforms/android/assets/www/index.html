@@ -23,6 +23,10 @@
         <button class="flat" onmousedown="setLocation(this);" value="192.168.1.X:8080">192.168.1.X:8080</button><br/>
     </div>
     <div id="main">
+        <div id="back">
+            <button class="flat" onmousedown="show('index'); hide('main');"><--</button><br/>
+            <hr>
+        </div><br/>
         <div align="center" id="header">
             <button class="btn halt" onmousedown="sendWs('halt');">HALT</button><br/>
             <button class="btn photo" onmousedown="sendWs('photo')">Photo</button>

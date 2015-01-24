@@ -30,6 +30,13 @@ p {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+hr {
+    border: 0;
+    background-color: #ABB7B7;
+    height: 2px;
+    margin-right: 5%;
+}
+
 #index {
     margin-top: 50px;
 }
@@ -238,6 +245,18 @@ button.stop:before {
     height: 20px;
     background: transparent;
     border: none;
+}
+
+#back .flat {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    font-weight: bolder;
+    width: 40px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /* Landscape layout (with min-width) */

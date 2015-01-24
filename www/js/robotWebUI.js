@@ -30,8 +30,6 @@ function setSpeed(sp) {
 
 function setWs() {
     if ("WebSocket" in window) {
-    	            document.getElementById("main").style.display = "block";
-            document.getElementById("index").style.display = "none";
         var loc = document.getElementById("location").value;
         if (loc === "") {
             loc = "localhost:8080";
