@@ -22,7 +22,7 @@ package it.unibo.iss;
 import android.os.Bundle;
 import org.apache.cordova.*;
 
-public class CordovaApp extends CordovaActivity
+public class RemoteConsole extends CordovaActivity
 {
     @Override
     public void onCreate(Bundle savedInstanceState)

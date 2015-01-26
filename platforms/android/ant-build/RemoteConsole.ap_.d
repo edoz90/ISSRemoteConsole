@@ -34,8 +34,10 @@
 /home/edoardo/Desktop/RemoteConsole/platforms/android/assets/www/js \
 /home/edoardo/Desktop/RemoteConsole/platforms/android/assets/www/cordova.js \
 /home/edoardo/Desktop/RemoteConsole/platforms/android/assets/www/cordova_plugins.js \
+/home/edoardo/Desktop/RemoteConsole/platforms/android/assets/www/control.html \
 /home/edoardo/Desktop/RemoteConsole/platforms/android/assets/www/img \
 /home/edoardo/Desktop/RemoteConsole/platforms/android/assets/www/css/index.css \
 /home/edoardo/Desktop/RemoteConsole/platforms/android/assets/www/js/index.js \
-/home/edoardo/Desktop/RemoteConsole/platforms/android/assets/www/img/logo.png \
+/home/edoardo/Desktop/RemoteConsole/platforms/android/assets/www/js/robotWebUI.js \
+/home/edoardo/Desktop/RemoteConsole/platforms/android/assets/www/img/photo.png \
 /home/edoardo/Desktop/RemoteConsole/platforms/android/ant-build/AndroidManifest.xml \

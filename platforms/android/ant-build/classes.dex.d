@@ -51,6 +51,7 @@
 /home/edoardo/Desktop/RemoteConsole/platforms/android/ant-build/classes/org/apache/cordova/camera/ExifHelper.class \
 /home/edoardo/Desktop/RemoteConsole/platforms/android/ant-build/classes/it/unibo/iss/R$attr.class \
 /home/edoardo/Desktop/RemoteConsole/platforms/android/ant-build/classes/it/unibo/iss/R$drawable.class \
+/home/edoardo/Desktop/RemoteConsole/platforms/android/ant-build/classes/it/unibo/iss/RemoteConsole.class \
 /home/edoardo/Desktop/RemoteConsole/platforms/android/ant-build/classes/it/unibo/iss/BuildConfig.class \
 /home/edoardo/Desktop/RemoteConsole/platforms/android/ant-build/classes/it/unibo/iss/R$string.class \
 /home/edoardo/Desktop/RemoteConsole/platforms/android/ant-build/classes/it/unibo/iss/R.class \
