@@ -15,5 +15,3 @@ If you want run the app on Windows Phone or IOS (or Ubuntu OS or Firefox OS, etc
 Insert the IP of the robot with the used port.
 
 ![alt tag](https://github.com/edoz90/ISSRemoteConsole/blob/master/screenshots/cmd.jpg)
-
-Command the robot with the buttons.
